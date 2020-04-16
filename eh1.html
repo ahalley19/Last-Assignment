@@ -1,0 +1,18 @@
+<html>
+<body>
+  <h2>Exception Handlings</h2>
+<p id="exception1"></p>
+
+<script>
+  try {
+
+    alerts("Last Class");
+  }
+    catch(error) {
+    document.getElementById('exception1').innerHtml = "Error Message: " + error.message;
+    alert("Error Message : " + error.message);
+
+    }
+</script>
+</body>
+</html>
